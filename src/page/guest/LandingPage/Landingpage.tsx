@@ -1,7 +1,7 @@
 const Landingpage = () => {
     return (
         <div>
-            <h1>landingpage</h1>
+            <h3>landingpage</h3>
         </div>
     )
 }
