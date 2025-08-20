@@ -1,0 +1,327 @@
+.bg-primary {
+    background-color: #9425FE !important;
+}
+
+.bg-light-primary {
+    background-color: #9525fe44 !important;
+}
+
+.text-primary {
+    color: #9425FE !important;
+}
+
+.text-danger {
+    color: #DB0909 !important;
+}
+
+.btn-primary {
+    background-color: #9425FE !important;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #DB0909 !important;
+    border: none;
+}
+
+
+.text-light-primary {
+    color: #F6EEFE !important;
+}
+
+.bg-light-primary {
+    background-color: #F6EEFE !important;
+}
+
+.bg-light-danger {
+    background-color: #FEEEEE !important;
+}
+
+.text-bg-purple {
+    color: var(--purple-primary) !important;
+    background: var(--purple-light-primary) !important;
+}
+
+.accordion {
+    background-color: transparent;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.sidebar .accordion .accordion-item {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 12px;
+    box-shadow: none !important;
+}
+
+.accordion .accordion-item .accordion-header .accordion-button {
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 14px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordion .accordion-item .accordion-header .accordion-button:hover {
+    background-color: #F6EEFE;
+    color: #9425FE;
+}
+
+.accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+    background-color: #F6EEFE;
+    color: #9425FE;
+}
+
+.accordion-collapse {
+    border: none;
+}
+
+.accordion-body {
+    padding: 0px !important;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #9425FE;
+    color: white;
+}
+
+.nav-pills .nav-link {
+    position: relative;
+    padding-left: 30px;
+}
+
+.custom-select {
+    background-color: #fff !important;
+    background-image: url("data:image/svg+xml,%3Csvg fill='black' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 16px;
+    padding-right: 2rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+}
+
+.course-card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    padding: 25px;
+    max-width: 350px;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+.course-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.course-subtitle {
+    display: inline-block;
+    font-size: 13px;
+    color: #e11d48;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.course-divider {
+    border-top: 2px dashed #000000;
+    margin: 15px 0;
+}
+
+.course-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.icon-box {
+    width: 36px;
+    height: 36px;
+
+}
+
+.course-topic {
+    font-weight: 600;
+    font-size: 14px;
+    color: #111827;
+}
+
+.course-description {
+    font-size: 14px;
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.course-button {
+    background-color: #9333ea;
+    color: white;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    float: right;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.course-button:hover {
+    background-color: #7e22ce;
+    transform: translateY(-2px);
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: #9425FE;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #9425FE;
+}
+
+.accordion-collapse {
+    border: none;
+}
+
+.accordion-body {
+    padding: 0px !important;
+}
+
+.header-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 0;
+    margin-bottom: 20px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container {
+    width: 240px;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.logo-text {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.header-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0 0 5px 0;
+    color: #333;
+}
+
+.dotted-line {
+    border-top: 3px dashed #323232;
+    margin: 10px 0;
+}
+
+.subtitle-text {
+    color: #444;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0;
+}
+
+.description {
+    color: #666;
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.filter-radio:checked+.filter-label {
+    background-color: #9425FE;
+    color: white;
+}
+
+.filter-label {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.filter-radio {
+    display: none;
+}
+
+.filter-label:hover {
+    background-color: #9425FE;
+    color: white;
+}
+
+.filter-option {
+    padding-left: 0;
+    margin-bottom: .125rem;
+    width: 100%;
+}
+
+.filter-label {
+    width: 100%;
+}
+
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--single,
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-color: #d7dce0;
+    width: 435px;
+    height: 40px;
+}
+
+.select2-container--default .select2-selection--multiple {
+    border: 1px solid #d7dce0;
+    border-radius: 5px;
+    width: 440px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #9425FE !important;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: #9425FE;
+}
+
+.label-text {
+    display: inline-block;
+    min-width: 110px;
+}
